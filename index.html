@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Coding Timed Quiz</title>
+  </head>
+  
+  <body>
+    <header id="headerSection">
+        <h1>Coding Quiz</h1>
+
+        <p><span id="countdownTimer">5:00</span></p>
+
+        <button onclick="startQuiz()">Start Quiz</button>
+    </header>
+
+    <!--quiz section-->
+    <section id="quizSection">
+      <p><span id="questionContent">When the quiz starts questions will apear here! If you answer any question incorrectly, you will receive a 30 second penalty.</span></p>
+      <button onclick="answerTrue()">TRUE</button>
+      <button onclick="answerFalse()">FALSE</button>
+    </section>
+
+    <!--leaderboard section-->
+    <section id="leaderboardSection">
+      <h2>QUIZ LEADERBOARD</h2>
+
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
