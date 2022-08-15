@@ -16,10 +16,11 @@ found at the top right of the page.
 4. if the user has a high scores higher that 79% they will be allowed to save it to the scoreboard with their name. 
 
 ## Screen Snip
+<img width="1903" alt="c4 sniip" src="https://user-images.githubusercontent.com/108765820/184567337-a64eb4c2-8895-4fe6-99f3-f53c6877aee0.PNG">
 
 
 ## Website URL
 
-
+https://dakmorg.github.io/c4/
 
 
